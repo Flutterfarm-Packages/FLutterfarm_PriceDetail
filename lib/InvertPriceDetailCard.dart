@@ -18,7 +18,7 @@ class InvertPriceCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height:cardHeight==null? 120.0 : cardHeight,
+      height:cardHeight==null? 120 : cardHeight,
       width:cardWidth == null? MediaQuery.of(context).size.width*0.85 : cardWidth,
       decoration: BoxDecoration(
           color:cardColor==null? Color(0xff1d1b1b) : cardColor,
